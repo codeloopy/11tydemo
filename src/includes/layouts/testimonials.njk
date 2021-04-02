@@ -1,0 +1,27 @@
+{% extends 'layouts/simple.njk' %} {% block postContent %}
+
+<div class="spt">
+	<div class="testimonial-area spb">
+		<div class="container">
+			<div class="testimonial-slider bordered">
+				{% for review in collections.testimonials %}
+				<div class="single-slide">
+					<div class="inner">
+						<p>{{ review.data.review }}</p>
+						<div class="client-info">
+							<div class="client-img">
+								<img src="{{ review.data.image }}" alt="client" />
+							</div>
+							<div class="client-data">
+								<h4>{{ review.data.customer }}</h4>
+								<span>{{ review.data.title }}</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock postContent %}

@@ -1,0 +1,24 @@
+{
+	"phone": "(561) 555-1212",
+	"email": "info@domain.com",
+	"address": "1234 Gator Rd",
+	"addressExtended": "West Palm Beach, FL 33401",
+	"social": [
+		{
+			"name": "github",
+			"url": "http://www.github.com"
+		},
+		{
+			"name": "twitter",
+			"url": "http://www.twitter.com"
+		},
+		{
+			"name": "youtube",
+			"url": "http://www.youtube.com"
+		},
+		{
+			"name": "facebook",
+			"url": "http://www.facebook.com"
+		}
+	]
+}

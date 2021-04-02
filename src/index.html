@@ -1,0 +1,85 @@
+---json
+{
+	"layout": "layouts/homepage.njk",
+	"banners": [
+		{
+			"headline": "Heading One goes here",
+			"blurb": "Lorem ipsum dolor amet sum",
+			"background": "/assets/img/slide1.jpg",
+			"link": {
+				"text": "Learn More",
+				"url": "/about"
+			}
+		},
+		{
+			"headline": "Heading Two goes here",
+			"blurb": "Lorem ipsum dolor amet sum",
+			"background": "/assets/img/slide2.jpg",
+			"link": {
+				"text": "Learn More",
+				"url": "/about"
+			}
+		},
+		{
+			"headline": "Heading Three goes here",
+			"blurb": "Lorem ipsum dolor amet sum",
+			"background": "/assets/img/slide3.jpg",
+			"link": {
+				"text": "Learn More",
+				"url": "/about"
+			}
+		}
+	],
+	"about": {
+		"title": "USA’s most trusted 3D and graphic designing studio, a very passionate team inside.",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. Exa commodo consequat.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		"image": "/assets/img/about.png",
+		"link": {
+			"url": "/about",
+			"text": "More About"
+		}
+	},
+	"services": {
+		"title": "Our services",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+	},
+	"clients":{
+		"logos": [
+		"/assets/img/brand1.png",
+		"/assets/img/brand2.png",
+		"/assets/img/brand3.png",
+		"/assets/img/brand4.png"
+		]
+	},
+	"testimonials": {
+		"title": "What our clients are saying!",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+	}
+}
+
+---
+
+<!-- the banners: in front matter is an array, link: is an object comprise of 2 items, indentation is crucial -->
+
+<!-- usually front matter is in YAML whihc can't be indented using tabs, must be 2 spaces, but JSON can be used (see above) -->
+<!-- layout: 'layouts/homepage.njk'
+
+banners:
+  - headline: 'Heading1 goes here'
+    blurb: 'Lorem ipsum dolor amet sum'
+    background: '/assets/img/slide1.jpg'
+    link:
+      text: 'Learn More'
+      url: '/about'
+  - headline: 'Heading2 goes here'
+    blurb: 'Lorem ipsum dolor amet sum'
+    background: '/assets/img/slide2.jpg'
+    link:
+      text: 'Learn More'
+      url: '/about'
+  - headline: 'Heading3 goes here'
+    blurb: 'Lorem ipsum dolor amet sum'
+    background: '/assets/img/slide3.jpg'
+    link:
+      text: 'Learn More'
+      url: '/about' -->
